@@ -1,0 +1,26 @@
+# Node (frontend)
+frontend/node_modules/
+frontend/dist/
+
+# Java / Spring Boot
+backend/target/
+backend/.idea/
+backend/.project
+backend/.classpath
+backend/.settings/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# OS / IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env files
+.env
+*.env
