@@ -4,8 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 const Login = () => {
     return (
         <AuthLayout>
-            <div className="flex min-h-screen items-center justify-center bg-gray-100">
-                <div className="w-full max-w-md rounded-2xl bg-white p-8 shadow-lg">
+                <div className="w-full max-w-xl rounded-2xl p-8 shadow-lg">
                     <h2 className="mb-6 text-center text-2xl font-bold text-gray-800">
                         Sign in to Your Account
                     </h2>
@@ -50,7 +49,6 @@ const Login = () => {
                         Continue with Google
                     </button>
                 </div>
-            </div>
         </AuthLayout>
     );
 }
